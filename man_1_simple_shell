@@ -1,0 +1,54 @@
+
+.TH SHELL 1 "April 2024" "1.0" "simple shell"
+
+.SH NAME
+shell \- simple UNIX command-line interpreter
+
+.SH SYNOPSIS
+.B shell
+
+.SH DESCRIPTION
+.PP
+The
+.B shell
+command is a simple UNIX command-line interpreter written in C. It allows users to execute basic commands and display their output.
+
+.SH USAGE
+.PP
+To run the shell, execute the compiled binary:
+.BR ./shell
+
+.PP
+Once inside the shell, input commands as you would in a regular UNIX shell.
+
+.SH EXAMPLES
+.PP
+Here are some examples of using the shell:
+.BR $ ./shell
+.BR #cisfun$ ls
+.BR file1.txt file2.txt
+.BR #cisfun$ pwd
+.BR /home/user
+.BR #cisfun$ exit
+
+.SH OPTIONS
+.PP
+The
+.B shell
+command does not support any command-line options.
+
+.SH EXIT STATUS
+.PP
+The
+.B shell
+utility exits with the following status codes:
+.IP 0
+Successful program execution.
+.IP 1
+An error occurred.
+
+.SH AUTHORS
+.PP
+Aanand Prasad <aanand.prasad@gmail.com>
+.br
+Aaron Davidson <aaron@databricks.com>
