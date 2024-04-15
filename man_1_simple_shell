@@ -25,11 +25,11 @@ Once inside the shell, input commands as you would in a regular UNIX shell.
 .PP
 Here are some examples of using the shell:
 .BR $ ./shell
-.BR #cisfun$ ls
+.BR #$: ls
 .BR file1.txt file2.txt
-.BR #cisfun$ pwd
+.BR #$: pwd
 .BR /home/user
-.BR #cisfun$ exit
+.BR #$: exit
 
 .SH OPTIONS
 .PP
